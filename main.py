@@ -12,7 +12,8 @@ def title(text):
 
 def namegen():
     length = random.randint(4, 20)
-    letters = "Il"
+    letters = "v"
+    numbers = "0"
     return ''.join(random.choice(letters) for i in range(length))
 
 title('Hidden User Gen By (...)#4953 | Tried: 0 | Taken: 0 | Available: 0')
